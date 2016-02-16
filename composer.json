@@ -1,0 +1,17 @@
+{
+    "name": "arturom/flocking-index",
+    "require": {
+        "elasticsearch/elasticsearch": "0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "IndexDash\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arturo Mejia",
+            "email": "arturo.mejia@creativedrive.com"
+        }
+    ]
+}
