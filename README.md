@@ -14,8 +14,8 @@ $ echo '{}' | ./app.php --host='localhost:9200' --index_name='logs' --copy_data 
 ```
 This command tell the script to:
   - create a connection to the Elasticsearch node at `localhost:9200`
-  - creates a new index called `logs_{current_timestamp}`
-  - reads the index mappings and settings from standard input
+  - create a new index called `logs_{current_timestamp}`
+  - read the index mappings and settings from standard input
   - copy the data from any existing index called `logs` or any indexes using the `logs` alias
   - delete any existing index called `logs` or any indexes using the `logs` alias
   - remove the alias from any indexes using the `logs` alias and add the alias to the new index.
