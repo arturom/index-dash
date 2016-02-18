@@ -10,7 +10,7 @@ The process consists of the following steps:
 
 #### Sample usage:
 ```bash
-echo '{}' | ./app.php --host='localhost:9200' --index_name='logs' --copy_data --delete_old --move_alias
+$ echo '{}' | ./app.php --host='localhost:9200' --index_name='logs' --copy_data --delete_old --move_alias
 ```
 This command tell the script to:
   - create a connection to the Elasticsearch node at `localhost:9200`
