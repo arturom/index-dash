@@ -8,6 +8,13 @@ The process consists of the following steps:
   3. Deleting the old index.
   4. Moving the alias from the old index into the new one.
 
+#### Initial steps
+```bash
+$ git clone https://github.com/arturom/index-dash.git
+$ cd index-dash
+$ composer install
+```
+
 #### Sample usage:
 ```bash
 $ echo '{}' | ./app.php --host='localhost:9200' --index_name='logs' --copy_data --delete_old --move_alias
