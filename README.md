@@ -1,6 +1,6 @@
 # index-dash
 
-A CLI tool to hot swap Elasticsearch indexes when mappings and settings need to be updated. The tool enforces the use of index aliases.
+A CLI tool to hot swap Elasticsearch indexes. This is useful when mappings and settings need to be updated. The tool enforces the use of index aliases.
 
 The process consists of the following steps:
   1. Creating a new index using the mappings and settings received via STDIN. This new index name is automatically suffixed with a time stamp.
