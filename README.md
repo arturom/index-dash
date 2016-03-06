@@ -1,4 +1,5 @@
 # index-dash
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/arturom/index-dash/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/arturom/index-dash/?branch=master)
 
 A CLI tool to hot swap Elasticsearch indexes. This is useful when mappings and settings need to be updated. The tool enforces the use of index aliases.
 
