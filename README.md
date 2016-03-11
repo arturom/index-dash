@@ -18,7 +18,7 @@ $ composer install
 
 #### Sample usage:
 ```bash
-$ echo '{}' | ./index-dash.php --host='localhost:9200' --index_name='logs' --copy_data --delete_old --move_alias
+$ echo '{}' | php index-dash --host='localhost:9200' --index_name='logs' --copy_data --delete_old --move_alias
 ```
 This command instructs the script to:
   - connect to an Elasticsearch node at `localhost:9200`
